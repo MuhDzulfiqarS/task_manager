@@ -1,0 +1,31 @@
+Berikut adalah dokumentasi sederhana yang menjelaskan langkah-langkah untuk menjalankan proyek Saya:
+Langkah-langkah Menjalankan Proyek Laravel
+1. Persyaratan Sistem
+Pastikan telah menginstal perangkat lunak berikut di komputer Anda :
+- PHP (versi 8)
+- Composer (Dependency Manager untuk PHP)
+- MySQL
+- Web server (seperti Apache)
+
+2. Clone Proyek
+
+3. Install Dependencies 
+Jalankan perintah berikut untuk mengunduh dan menginstal semua dependencies yang diperlukan di proyek Laravel:
+composer install
+
+4. Buka file konfigurasi .env :
+sesuaikan pengaturan berikut dengan informasi database Anda:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_manager
+DB_USERNAME=root
+DB_PASSWORD=
+
+5. Jalankan Server 
+Jalankan server lokal Laravel:
+php artisan serve
+
+
+untuk database terletak di folder database/task_manager.sql
+
